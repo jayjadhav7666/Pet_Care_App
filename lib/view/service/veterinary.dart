@@ -73,7 +73,7 @@ class _VeterinaryState extends State<Veterinary> {
         children: [
           Padding(
             padding:
-                const EdgeInsets.only(left: 20, right: 20, top: 40, bottom: 25),
+                const EdgeInsets.only(left: 20, right: 20, top: 60, bottom: 25),
             child: Column(
               children: [
                 /// BackButton & Title
@@ -544,7 +544,7 @@ class _VeterinaryState extends State<Veterinary> {
 
                     ///Gesture Detector Button for See Location
                     Container(
-                      padding: const EdgeInsets.only(top: 8, bottom: 8),
+                      height: 50,
                       width: double.infinity,
                       decoration: const BoxDecoration(
                         color: Color.fromRGBO(252, 219, 193, 1),
@@ -670,7 +670,7 @@ class _VeterinaryState extends State<Veterinary> {
                             );
                           },
                           child: Container(
-                            padding: const EdgeInsets.only(top: 8, bottom: 8),
+                            height: 50,
                             width: double.infinity,
                             decoration: BoxDecoration(
                               color: Theme.of(context).primaryColor,

@@ -216,7 +216,7 @@ class _LoginState extends State<Login> {
                   );
                 },
                 child: SizedBox(
-                  height: 37,
+                  height: 50,
                   width: double.infinity,
                   child: Center(
                     child: Text(
@@ -246,7 +246,7 @@ class _LoginState extends State<Login> {
                 color: Theme.of(context).primaryColor,
                 onTap: () {},
                 child: SizedBox(
-                  height: 37,
+                  height: 50,
                   width: double.infinity,
                   child: Center(
                     child: Text(
@@ -269,7 +269,7 @@ class _LoginState extends State<Login> {
                 color: Theme.of(context).primaryColor,
                 onTap: () {},
                 child: SizedBox(
-                  height: 37,
+                  height: 50,
                   width: double.infinity,
                   child: Center(
                     child: Text(

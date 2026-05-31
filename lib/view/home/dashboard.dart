@@ -49,7 +49,7 @@ class _DashBoardState extends State<DashBoard> {
         child: Column(
           children: [
             const SizedBox(
-              height: 20,
+              height: 40,
             ),
             //Profile Photo
             Row(
@@ -271,7 +271,7 @@ class _DashBoardState extends State<DashBoard> {
                       height: 20,
                     ),
                     SizedBox(
-                      height: 82,
+                      height: 105,
                       child: ListView.builder(
                         shrinkWrap: true,
                         scrollDirection: Axis.horizontal,
@@ -306,13 +306,13 @@ class _DashBoardState extends State<DashBoard> {
                                 child: Container(
                                   margin: const EdgeInsets.symmetric(
                                       horizontal: 13),
-                                  height: 58,
-                                  width: 58,
+                                  height: 70,
+                                  width: 70,
                                   child: Center(
                                     child: Image.asset(
                                       category[index]["image"],
-                                      height: 58,
-                                      width: 58,
+                                      height: 70,
+                                      width: 70,
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -353,7 +353,7 @@ class _DashBoardState extends State<DashBoard> {
                       ],
                     ),
                     const SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
                     Container(
                       height: 110,
@@ -452,7 +452,7 @@ class _DashBoardState extends State<DashBoard> {
                       ),
                     ).animate().scale(begin: const Offset(0.8, 0.8), end: const Offset(1, 1), duration: 600.ms).fade(),
                     const SizedBox(
-                      height: 20,
+                      height: 15,
                     ),
 
                     ///Community
@@ -470,7 +470,7 @@ class _DashBoardState extends State<DashBoard> {
                       ],
                     ),
                     const SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
                     Container(
                       height: 110,
@@ -568,9 +568,26 @@ class _DashBoardState extends State<DashBoard> {
                         ],
                       ),
                     ).animate().scale(begin: const Offset(0.8, 0.8), end: const Offset(1, 1), duration: 600.ms, delay: 200.ms).fade(),
-                    const SizedBox(
-                      height: 20,
+                    const SizedBox(height: 30),
+                    Center(
+                      child: Column(
+                        children: [
+                          Icon(Icons.pets, color: Theme.of(context).primaryColor.withOpacity(0.5), size: 40)
+                              .animate(onPlay: (controller) => controller.repeat(reverse: true))
+                              .scale(begin: const Offset(1, 1), end: const Offset(1.2, 1.2), duration: 800.ms),
+                          const SizedBox(height: 10),
+                          Text(
+                            "You're all caught up! 🎉",
+                            style: GoogleFonts.poppins(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w500,
+                              color: Colors.grey.shade500,
+                            ),
+                          ).animate().fade(delay: 500.ms),
+                        ],
+                      ),
                     ),
+                    const SizedBox(height: 100),
                   ],
                 ),
               ),

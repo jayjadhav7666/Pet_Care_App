@@ -44,7 +44,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
       resizeToAvoidBottomInset: false,
       body: screens[_currentIndex],
       bottomNavigationBar: SizedBox(
-        height: 73,
+        height: 90,
         child: BottomNavigationBar(
           iconSize: 24,
           selectedItemColor: Theme.of(context).primaryColor,

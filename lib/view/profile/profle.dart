@@ -28,7 +28,7 @@ class _ProfileState extends State<Profile> {
           // Background Image
           Image.asset(
             "assets/dashboard/jay.jpg",
-            height: 350,
+            height: 400,
             width: double.infinity,
             fit: BoxFit.cover,
             alignment: Alignment.topCenter,
@@ -43,7 +43,7 @@ class _ProfileState extends State<Profile> {
           // Content
           Column(
             children: [
-              const SizedBox(height: 120),
+              const SizedBox(height: 170),
               // Profile Info
               Column(
                 children: [

@@ -70,7 +70,7 @@ class _NotificationsState extends State<Notifications> {
     return Scaffold(
       backgroundColor: const Color.fromRGBO(245, 245, 247, 1),
       body: Padding(
-        padding: const EdgeInsets.only(left: 20, right: 20, top: 32),
+        padding: const EdgeInsets.only(left: 20, right: 20, top: 60),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

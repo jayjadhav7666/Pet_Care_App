@@ -51,7 +51,7 @@ class _ShopState extends State<Shop> {
             children: [
               Container(
                 height: 148,
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.only(left: 20, right: 20, top: 60, bottom: 20),
                 decoration: BoxDecoration(
                   color: Theme.of(context).primaryColor,
                   borderRadius: const BorderRadius.only(

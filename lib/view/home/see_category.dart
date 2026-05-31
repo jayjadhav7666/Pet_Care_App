@@ -18,7 +18,7 @@ class _CategoriesState extends State<Categories> {
     return Scaffold(
       backgroundColor: const Color.fromRGBO(245, 245, 247, 1),
       body: Padding(
-        padding: const EdgeInsets.all(20),
+        padding: const EdgeInsets.only(left: 20, right: 20, top: 60, bottom: 20),
         child: Column(
           children: [
             const SizedBox(

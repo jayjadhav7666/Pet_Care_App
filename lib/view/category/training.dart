@@ -62,7 +62,7 @@ class _TrainingState extends State<Training> {
         padding: const EdgeInsets.only(
           left: 20,
           right: 20,
-          top: 20,
+          top: 60,
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
